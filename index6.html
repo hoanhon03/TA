@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lập trình hướng đối tượng</title>
+    <link rel="stylesheet" href="css/styple1.css">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index1.html"><img src="image/logo.png" height="60px" width="55px"></a> 
+        </div>
+
+<!---                               SỬA LẠI NAV BAR                                              -->
+        <div class="menu">
+            <li><a href="">MÔN HỌC</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Môn đại cương</a>
+                        <ul>
+                            <li><a href="index6.html">Lập trình hướng đối tượng</a></li>
+                            <li><a href="Ltmobile.html">Lập trình ứng dụng di động</a></li>
+                            <li><a href="ctdl.html">Cấu trúc dữ liệu và giải thuật</a></li>
+                            <li><a href="hqtcsdl.html">Hệ quản trị cơ sở dữ liệu</a></li>
+                            <li><a href="dstt.html">Đại số tuyến tính và ứng dụng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index2.html">Môn chuyên ngành</a>
+                        <ul>
+                            <li><a href="">Chuyên ngành Công nghệ phần mềm</a>
+                            <ul>
+                                <li><a href="kiem_thu_phan_mem.html">Kiểm thử phần mềm</a></li>
+                                <li><a href="ktlyc.html">Kỹ thuật lấy yêu cầu</a></li>
+                            </ul></li>
+                            <li><a href="">Chuyên ngành Khoa học dữ liệu</a></li>
+                            <li><a href="">Chuyên ngành Trí tuệ nhân tạo</a></li>
+                            <li><a href="">CHuyên ngành An ninh mạng và IOTs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Môn tự chọn</a>
+                        <ul>
+                            <li><a href="qldacntt.html">Quản lý dự án công nghệ thông tin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            
+            </li>
+            <li><a href="#">KHOA </a>
+                <ul class="sub-menu">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">DIỄN ĐÀN</a></li>
+            <li><a href="#">TÀI LIỆU </a>
+                <ul class="sub-menu">
+                    <li><a href="">ĐẠI CƯƠNG </a></li>
+                    <li><a href="">CHUYÊN NGÀNH</a></li>
+                </ul>
+            </li>
+            <li><a href="index3.html">TRỢ GIẢNG</a></li>
+        </div>
+        <div class="khac">
+            <li><input placeholder="Tìm kiếm" type="text" ><a href=""><i class="fas fa-search"></i></a></li>
+            <li><a href="#">MSSV_HọvàTên</a></li>
+            <li><a class="fa fa-user"></a></li>
+        </div>
+    </header>
+<!---------------------------home----------------------  -->
+<section id="about-home">
+    <h2>LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</h2>
+</section>
+<!----------------------------------- nội dung-------------------------- -->
+
+<section id="course-inner">
+    <div class="overview">
+        <img src="image/oop.png" alt="oop">
+    </div>
+    <div class="them">
+        <h3>Thông tin môn học</h3>
+        <p><i class="fas fa-video"></i>Môn bắt buộc</p>
+        <p><i class="fas fa-newspaper"></i>Kiến thức quan trọng</p>
+        <p><i class="fas fa-cloud-download-alt"></i>Liên quan đến nhiều môn sau:</p>
+        <p><i class="fas fa-infinity"></i>1.Lập trình ứng dụng di động.</p>
+        <p><i class="fas fa-paperclip"></i>2.Lập trình web và nâng cao.</p>
+        <p><i class="fas fa-trophy"></i>3.Các môn chuyên ngành CNPM.</p>
+        <p><i class="fas fa-user"></i>Số sinh viên tham gia thảo luận: 10</p>
+        <div class="them-btn">
+            <button class="button_them" role="button">Tham gia thảo luận</button>
+        </div>
+
+    </div>
+
+</section>
+<!---------------------- thảo luận ----------------------- -->
+<p class="title_thaoluan">Thảo Luận</p>
+<hr>
+<section id="thao_luan">
+    <div class="group">
+        <div id="group_menber" class="group_menber1">
+            <div class='user_container'>
+            <div class="user">
+                <div class="user_col">
+                    <a href="#">
+                        <div class="avatar">
+                            <img src="image/us.jpg" class="user_avatar" width="50px" height="60px">
+                        </div>
+                    </a>
+                </div>
+                <div class="noi_dung1">
+                 <div class="title1">
+                    <p><input type="text" placeholder="Nhập tên chủ đề"></p>
+                 </div>
+                 <div class="content1">
+                    <textarea name="content1" id="content10" required placeholder="Nội dung thảo luận"></textarea>
+                 </div>
+                </div>
+            </div>
+            <div class="dang">
+                <button class="button_them" role="button">Đăng tải</button>
+            </div>
+            
+        </div>
+    </div>
+
+        <div id="group_menber" class="group_menber1">
+            <div class='user_container'>
+                <div class="user">
+                    <div class="user_col">
+                        <a href="#">
+                            <div class="avatar">
+                                <img src="image/us.jpg" class="user_avatar" width="50px" height="60px">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="noi_dung">
+                     <div class="title">
+                        <a href="">Tên chủ đề</a>
+                     </div>
+                     <div class="content">
+                        <span>
+                            nội dung thảo luận về chủ đề abc....xyz
+                        </span>
+                     </div>
+                     <div class="time">
+                        <div class="thong_tin">
+                            By :
+                            <span class="Mail_1">
+                                <a href="">người dùng @gmail.com</a>
+                            </span> 
+                            Cập nhật lần cuối:
+                        <span class="last_update">1 ngày trước
+                        </span>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="like">
+            <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+            <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true">20</i></button>
+            <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true">0</i></button>
+            <button><i class="fas fa-comment"> 10</i></button>
+            <button><i class="fas fa-arrow-down"> trả lời</i></button>
+        </div>
+        <div id="group_menber" class="group_menber1">
+            <div class='user_container'>
+                <div class="user">
+                    <div class="user_col">
+                        <a href="#">
+                            <div class="avatar">
+                                <img src="image/us.jpg" class="user_avatar" width="50px" height="60px">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="noi_dung">
+                     <div class="title">
+                        <a href="">Tên chủ đề</a>
+                     </div>
+                     <div class="content">
+                        <span>
+                            nội dung thảo luận về chủ đề abc....xyz
+                        </span>
+                     </div>
+                     <div class="time">
+                        <div class="thong_tin">
+                            By :
+                            <span class="Mail_1">
+                                <a href="">người dùng @gmail.com</a>
+                            </span> 
+                            Cập nhật lần cuối:
+                        <span class="last_update">1 ngày trước
+                        </span>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="like">
+            <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+            <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true">20</i></button>
+            <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true">0</i></button>
+            <button><i class="fas fa-comment"> 10</i></button>
+            <button><i class="fas fa-arrow-down"> trả lời</i></button>
+        </div>
+        <div id="group_menber" class="group_menber1">
+            <div class='user_container'>
+                <div class="user">
+                    <div class="user_col">
+                        <a href="#">
+                            <div class="avatar">
+                                <img src="image/us.jpg" class="user_avatar" width="50px" height="60px">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="noi_dung">
+                     <div class="title">
+                        <a href="">Tên chủ đề</a>
+                     </div>
+                     <div class="content">
+                        <span>
+                            nội dung thảo luận về chủ đề abc....xyz
+                        </span>
+                     </div>
+                     <div class="time">
+                        <div class="thong_tin">
+                            By :
+                            <span class="Mail_1">
+                                <a href="">người dùng @gmail.com</a>
+                            </span> 
+                            Cập nhật lần cuối:
+                        <span class="last_update">1 ngày trước
+                        </span>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="like">
+            <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+            <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true">20</i></button>
+            <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true">0</i></button>
+            <button><i class="fas fa-comment"> 10</i></button>
+            <button><i class="fas fa-arrow-down"> trả lời</i></button>
+        </div>
+        <div id="group_menber" class="group_menber1">
+            <div class='user_container'>
+                <div class="user">
+                    <div class="user_col">
+                        <a href="#">
+                            <div class="avatar">
+                                <img src="image/us.jpg" class="user_avatar" width="50px" height="60px">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="noi_dung">
+                     <div class="title">
+                        <a href="">Tên chủ đề</a>
+                     </div>
+                     <div class="content">
+                        <span>
+                            nội dung thảo luận về chủ đề abc....xyz
+                        </span>
+                     </div>
+                     <div class="time">
+                        <div class="thong_tin">
+                            By :
+                            <span class="Mail_1">
+                                <a href="">người dùng @gmail.com</a>
+                            </span> 
+                            Cập nhật lần cuối:
+                        <span class="last_update">1 ngày trước
+                        </span>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="like">
+            <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+            <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true">20</i></button>
+            <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true">0</i></button>
+            <button><i class="fas fa-comment"> 10</i></button>
+            <button><i class="fas fa-arrow-down"> trả lời</i></button>
+        </div>
+    </div>
+</section>
+
+<hr>
+<section class="themthem">
+    <h3>Những môn học bạn có thể bạn sẽ quan tâm</h3>
+
+        <div class="learn">
+            <p><i class="fas fa-check-circle"></i><a href="Ltmobile.html">Lập trình ứng dụng di động</a></p>
+            <p><i class="fas fa-check-circle"></i><a href="ctdl.html">Cấu trúc dữ liệu và giải thuật</a></p>
+            <p><i class="fas fa-check-circle"></i><a href="kiem_thu_phan_mem.html">Kiểm thử phần mềm</a></p>
+           <p><i class="fas fa-check-circle"></i><a href="ktlyc.html">Kỹ thuật lấy yêu cầu</a></p>
+        </div>
+</section>
+<hr>
+  <!-- -----------------------------------thông tin----------------------- -->
+  <section class="app_container">
+    <p>Trao đổi với chúng tôi tại</p>
+    <div class="app_mxh">
+        <a href="https://www.facebook.com/chessenguyennn"><img src="image/fb.png"></a>
+        <a href=""><img src="image/ist.png"></a>
+    </div>
+    <p>Nhận thông tin về chúng tôi</p>
+    <input type="text" placeholder="Nhập email của bạn:......">
+</section>
+<!--------------------------------------- footer------------------------------------------------ -->
+<div class="footer-top">
+    <li><a href="#">Liên hệ </a></li>
+    <li><a href="#">Giới thiệu</a></li>
+    <li><a href="#">Chính sách</a></li>
+    <li>
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-github"></a>
+    </li>
+
+ </div>
+ <div class="footer-senter">
+    <p>
+        Dự án kết thúc môn: Kỹ năng công dân toàn cầu <br>        
+        Thực hiện bởi team: Nhóm 4 VLT <br>
+        địa chỉ trao đổi: @gmail.com <br>
+     </p>
+ </div>
+ <div class="footer-bottom">
+    @Copyright_team4VLT
+ </div>
+</body>
+<script>
+    
+    const header=document.querySelector('header')
+window.addEventListener('scroll',function(){
+    x=window.pageYOffset
+    if(x>0){
+        header.classList.add('sticky')
+    }
+    else{
+        header.classList.remove("sticky")
+    }
+})
+
+const imgPosition = document.querySelectorAll('.aspect-ratio-169 img')
+const imgContainer = document.querySelector('.aspect-ratio-169')
+const dotItem= document.querySelectorAll('.dot')
+let imgNuber = imgPosition.length
+let index = 0
+imgPosition.forEach(function(image,index){
+    image.style.left = index *100 +'%'
+    dotItem[index].addEventListener('click',function(){
+    slider(index)
+    })
+})
+function imgSlide(){
+    index++;
+    console.log(index)
+    if (index >= imgNuber){index = 0}
+    slider(index)
+}
+
+function slider(index){
+    imgContainer.style.left = '-' + index * 100 + '%'
+    const dotActive=document.querySelector('.active')
+    dotActive.classList.remove('active')
+    dotItem[index].classList.add('active')
+} 
+ 
+setInterval(imgSlide,5000)
+
+
+
+const itemsliderbar= document.querySelectorAll('.DG-left_li')
+itemsliderbar.forEach(function(menu,index){
+    menu.addEventListener('click',function(){
+        menu.classList.toggle('block')
+    })
+})
+var btn1 = document.querySelector('#green');
+var btn2 = document.querySelector('#red');
+
+btn1.addEventListener('click', function() {
+  
+    if (btn2.classList.contains('red')) {
+      btn2.classList.remove('red');
+    } 
+  this.classList.toggle('green');
+  
+});
+
+btn2.addEventListener('click', function() {
+  
+    if (btn1.classList.contains('green')) {
+      btn1.classList.remove('green');
+    } 
+  this.classList.toggle('red');
+  
+});
+</script>
+</html>
